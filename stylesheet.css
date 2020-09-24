@@ -1,0 +1,892 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+.activehomepage {
+  background-color: #DDE1DF;
+}
+
+li a:hover {
+  background-color: #DDE1DF;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 85%;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #DDE1DF;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(119, 82, 67, 0.8);
+}
+
+/* Caption text */
+.textdark {
+  color: #11161C;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.textbright {
+  color: #DDE1DF;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Number text (1/3 etc) */
+.numbertextbright {
+  color: #DDE1DF;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.numbertextdark {
+  color: #11161C;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+html {
+    background-color: #DDE1DF;
+}
+
+.homepageheading {
+    font-family: 'Varela', sans-serif;
+    font-size: 600%;
+    padding-left: 30%; 
+    margin: 0px;
+    padding-top: 0px;
+    color: #DDE1DF;
+}
+
+h3, h2 {
+    font-family: 'Varela', sans-serif;
+    color: #11161C;
+}
+
+p {
+   font-family: 'Open Sans', sans-serif; 
+}
+
+.section {
+    background-color: #9A8578;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+
+.section2 {
+    background-color: #DDE1DF;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    border: solid 1px #11161C;
+}
+
+{
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column1, .column2 {
+    float: left;
+    background-color: #9A8578; 
+    border: none;
+    }
+
+.column1 {
+    width: 28%;
+    text-align: end;
+    margin-right: 0px;
+    padding-right: 15px;
+}
+
+
+.column2 {
+    width: 60%;
+    text-align: left;
+       margin-left: 70px;
+    margin-top: 60px;
+}
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.aboutpageheading {
+    color: #11161C;
+    font-family: 'Varela', sans-serif;
+    font-size: 60px;
+    width: 16%;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top: 27px;
+    margin-bottom: 0px;
+}
+
+.aboutpagemotto {
+     color: #11161C;
+   font-family: 'Varela', sans-serif; 
+    padding-top: 65px;
+}
+
+.homepage1 {
+    text-align: right;
+    width: 30%; 
+    height: auto;
+    margin-left: 30px;
+    position:relative;
+    padding-left: 
+}
+
+
+.homepage2 {
+    text-align: left;
+    width: 20%;
+    margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+
+.homepage2 a {
+    color: #DDE1DF;
+}
+
+.homepage2 p, .homepage4 p {
+    font-size: 15px;
+}
+
+.homepage3 {
+    text-align: center;
+    width: 30%;
+    margin-left: 0px;
+     position:relative;
+}
+
+.homepage4 {
+    width: 40%;
+    padding-right: 8%;
+     position:relative;
+    text-align: left;
+}
+
+.homepage4 a {
+    color: #DDE1DF;
+}
+
+.homepage5 h2 {
+    color: #775243;
+    text-align: center;
+    margin-left: 10%;
+    font-size: 200%;
+}
+
+.homepage6 p {
+    text-align: left;
+    margin-left: 8%;
+    font-size: 14px;
+}
+
+.homepage6 {
+    text-align: left;
+     width: 30%;
+    padding-right: %;
+}
+
+svg {
+    width: 20%;
+    height: 20%;
+}
+
+
+.activeaboutpage {
+  background-color: #DDE1DF;
+}
+
+
+.activeproductspage {
+  background-color: #775243;
+  color: #DDE1DF;
+}
+
+table.productspage {
+    table-layout: fixed;
+    width: 80%;
+}
+
+table img {
+    width: 50%
+    height: 100%
+}
+
+.slide-left-right
+{
+text-decoration:none;
+display: inline-block;
+color:black;
+}
+/* add a empty string after the elment with class .slide-left-right */
+.slide-left-right:after 
+{
+content: '';
+display: block;
+height: 3px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease; /* .5 seonds for changes to the width and background-color */
+-webkit-transition: width .5s ease, background-color .5s ease; /* Chrome and Safari */
+-moz-transition: width .5s ease, background-color .5s ease; /* FireFox */
+}
+/* Change the width and background on hover, aka sliding out */
+.slide-left-right:hover:after 
+{
+width: 100%;
+background: black;
+}
+
+
+.activeachievementspage {
+  background-color: #DDE1DF;
+}
+
+.darkheading {
+    font-family: 'Varela', sans-serif;
+    color: #11161C
+}
+   
+.section2 a {
+    color: #11161C
+}
+
+.homepage6 td {
+    text-align: right;
+}
+
+td .homepage8  {
+    text-align: left;
+    width: 40%;
+}
+
+td .homepage7 {
+    width: 100px;
+    text-align: right;
+}
+
+ .achpageheading {
+    color: #11161C;
+    font-family: 'Varela', sans-serif;
+    font-size: 60px;
+    width: 16%;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.column4 {
+   color: #11161C;
+   font-family: 'Varela', sans-serif; 
+    padding-top: 28px;
+}
+
+.achpagemotto {
+     color: #11161C;
+   font-family: 'Varela', sans-serif; 
+    padding-top: 65px;
+}
+
+.achlogo {
+        width: 60%;
+        height: auto;
+        margin-right: 0px;
+        margin-left: 20px;
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 60px;
+}
+
+.column3, .column4 {
+    float: left;
+    background-color: #DDE1DF; 
+    border: none;
+    }
+
+.section3 {
+    background-color: #DDE1DF; 
+}
+
+.section3dark {
+    background-color: #9A8578; 
+}
+
+.aboutpageimage {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+    width: 150%;
+}
+
+.aboutpagepara {
+  text-align: left;
+  width: 90%;
+  padding-left: 30%;
+    padding-top: 15px;
+}
+
+.section4 {
+   background-color: #9A8578; 
+}
+
+.productspageheading {
+    color: #DDE1DF;
+    font-family: 'Varela', sans-serif;
+    font-size: 60px;
+    width: 16%;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.productspagemotto {
+color: #11161C;
+   font-family: 'Varela', sans-serif; 
+    padding-top: 60px;
+    padding-top: 0px;
+}
+
+.column5, .column6 {
+    float: left;
+    background-color: #9A8578; 
+    border: none;
+    }
+
+.column6 {
+   padding-top: 65px;
+}
+
+.productspageimages {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.achparagraph {
+text-align: left;
+  width: 60%;
+  padding-left: 20%;
+    padding-top: 25px;
+}
+
+.svg1 {
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.productsline {
+    width: 100%;
+    height: 2px;
+}
+
+.productimages {
+    width: 400%;
+    padding-right: ;
+    padding-top: 10px;
+    padding-left: 80%;
+    text-align: right;
+}
+
+.productsparagraph {
+    width: 50%;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: 
+}
+
+.productimages1 {
+    width: 150%;
+    padding-right: ;
+    padding-top: 10px;
+    padding-left: 50%;
+    text-align: right;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #9A8578;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #11161C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+   background-color: #9A8578;
+  border-bottom: 1px solid #11161C;
+  border-left: 1px solid #DDE1DF;
+  font-family: 'Varela', sans-serif;
+  font-weight: bold;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #9A8578;
+}
+
+.topnav a:hover {
+  background-color: #DDE1DF;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #DDE1DF;
+  color: #11161C;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.header {
+  background-color: #9A8578;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  height: 59px;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #DDE1DF;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #775243;
+  border-bottom: 1px solid #775243;
+  color: #11161C;
+  text-decoration: none;
+  font-family: 'Varela', sans-serif;
+  background-color: #9A8578;
+}
+
+.header li a:hover {
+  background-color: #DDE1DF;
+  color: ;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 8px 10px;
+  text-decoration: none;
+  color: #DDE1DF;
+  background-color: #9A8578;
+  font-family: 'Varela', sans-serif;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Phone*/
+@media screen and (max-width: 450px) {
+ .homepageheading {
+    font-family: 'Varela', sans-serif;
+    font-size: 300%;
+    padding-left: 30%;
+     width: 50%
+    }
+    .column2 {
+        font-size: 13px;
+        width: 40%;
+    text-align: end;
+       margin-left: 95px;
+    margin-top: 20px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    
+    .aboutpageimage {
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 30px;
+    width: auto;
+    height: 15%;
+}
+    .aboutpagepara {
+  text-align: left;
+  width: 90%;
+  padding-left: 0px;
+    padding-top: 15px;
+}
+    .achpageheading {
+    color: #11161C;
+    font-family: 'Varela', sans-serif;
+    font-size: 40px;
+    width: 16%;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+    .column4 {
+        color: #11161C;
+   font-family: 'Varela', sans-serif; 
+    padding-top: 20px; 
+    font-size: 11px;
+}
+    
+        .achlogo {
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    .achparagraph {
+text-align: left;
+  width: 60%;
+  padding-left: 10px;
+    padding-top: 15px;
+    margin-right: 0px;
+    padding-right: 5px;
+}
+    .aboutpageheading {
+    color: #11161C;
+    font-family: 'Varela', sans-serif;
+    font-size: 45px;
+    width: 16%;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.aboutpagemotto {
+     color: #11161C;
+   font-family: 'Varela', sans-serif; 
+    padding-top: 60px;
+    font-size: 13px;
+}
+    .productspageheading {
+    color: #DDE1DF;
+    font-family: 'Varela', sans-serif;
+    font-size: 50px;
+    width: 100%;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+    
+    .productspagemotto {
+color: #11161C;
+   font-family: 'Varela', sans-serif; 
+    padding-top: 0px;
+    font-size: 12px;
+    margin-top: 0px;
+}
+    .column6 {
+   padding-top: 43px;
+}
+    .productsparagraph {
+    width: 70%;
+    padding-left: 5px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: 
+}
+    .productimages {
+    width: 260%;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-left: 0%;
+    text-align: right;
+}
+    
+}
+
+/*Tablet*/
+@media screen and (max-width: 778px) and (min-width: 451px) {
+    .homepageheading {
+    font-family: 'Varela', sans-serif;
+    font-size: 300%;
+    padding-left: 30%;
+     width: 50%
+    }
+    
+    .column2 {
+        font-size: 13px;
+        width: 30%;
+    text-align: left;
+       margin-left:50px;
+    margin-top: 20px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    
+    .aboutpageimage {
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 30px;
+    width: auto;
+    height: 30%;
+}
+    .aboutpagepara {
+  text-align: left;
+  width: 90%;
+  padding-left: 5px;
+    padding-top: 15px;
+}
+        .productsparagraph {
+    width: 70%;
+    padding-left: 5px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: 
+}
+    .productimages {
+    width: 280%;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-left: 35px;
+    text-align: right;
+}    
+    .productimages1 {
+    width: 180%;
+    padding-right: ;
+    padding-top: 10px;
+    padding-left: 35px;
+    text-align: right;
+}
+}
